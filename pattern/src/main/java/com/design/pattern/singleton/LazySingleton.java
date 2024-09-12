@@ -1,6 +1,8 @@
 package com.design.pattern.singleton;
 
-public class LazySingleton {
+import java.io.Serializable;
+
+public class LazySingleton implements Serializable {
     private static LazySingleton instance = null;
 
     private LazySingleton() {
@@ -12,4 +14,5 @@ public class LazySingleton {
         }
         return instance;
     }
+
 }
