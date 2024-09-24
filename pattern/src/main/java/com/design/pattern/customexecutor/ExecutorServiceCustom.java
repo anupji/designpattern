@@ -12,6 +12,8 @@ class MyTask implements Runnable {
     }
 }
 
+// https://medium.com/@itsmynameangad/java-build-your-own-custom-executorservice-threadpool-213e46159326
+// https://youtu.be/3Uo7MfXY4to
 public class ExecutorServiceCustom {
     public static void main(String[] args) {
         MyExecutorService service = MyExecutors.myNewFixedThreadPool(3);
