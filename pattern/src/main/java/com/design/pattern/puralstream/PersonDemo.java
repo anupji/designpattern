@@ -1,8 +1,6 @@
 package com.design.pattern.puralstream;
 
 import java.util.List;
-import java.util.OptionalDouble;
-import java.util.stream.Stream;
 
 public class PersonDemo {
 
