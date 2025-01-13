@@ -49,12 +49,13 @@ class ComputeStatistics {
         String joined = cities.stream()
                 .filter(name -> name.length()==4)
                 .collect(Collectors.joining(", ","[","]"));
-        System.out.println(joined);
+        //System.out.println(joined);
         String collect = Stream.<String>empty()
                 .collect(Collectors.joining(",","[","]"));
         String collect1 = Stream.<String>of("one")
                 .collect(Collectors.joining(",","[","]"));
-        System.out.println("Collecting an empty stream: " + collect);
-        System.out.println("Collecting an empty stream: " + collect1);
+        //System.out.println("Collecting an empty stream: " + collect);
+        //System.out.println("Collecting an empty stream: " + collect1);
+        //cities.stream().collect(Collectors.groupingBy(city -> city.getState()));
     }
 }
